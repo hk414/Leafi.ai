@@ -61,7 +61,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-card.php" aria-expanded="false">
+              <a class="sidebar-link" href="./challenges/c3.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-cards"></i>
                 </span>
@@ -69,7 +69,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-forms.php" aria-expanded="false">
+              <a class="sidebar-link" href="./challenges/c4.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-file-description"></i>
                 </span>
@@ -77,7 +77,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-typography.php" aria-expanded="false">
+              <a class="sidebar-link" href="./challenges/c4.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-typography"></i>
                 </span>
@@ -85,7 +85,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-typography.php" aria-expanded="false">
+              <a class="sidebar-link" href="./challenges/c5.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-typography"></i>
                 </span>
@@ -93,7 +93,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-typography.php" aria-expanded="false">
+              <a class="sidebar-link" href="./challenges/c6.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-typography"></i>
                 </span>
@@ -126,7 +126,7 @@
             <div class="d-flex">
               <div class="unlimited-access-title me-3">
                 <h6 class="fw-semibold fs-4 mb-6 text-dark w-85">Subscribe to plan</h6>
-                <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/" target="_blank" class="btn btn-primary fs-2 fw-semibold lh-sm">Subscribe</a>
+                <a href="" target="_blank" class="btn btn-primary fs-2 fw-semibold lh-sm">Subscribe</a>
               </div>
               <div class="unlimited-access-img">
                 <img src="../assets/images/backgrounds/rocket.png" alt="" class="img-fluid">
@@ -433,7 +433,7 @@
                         <td class="border-bottom-0"><h6 class="fw-semibold mb-0">4</h6></td>
                         <td class="border-bottom-0">
                             <h6 class="fw-semibold mb-1">7nqNEubzKcFtZ68F3NDJmuYnFcNeEAvhHnNpiCuTTueuvwtUUtdFTrtUqbkyWakRpk18N7LfPH55AgYtneS73Zg</h6>
-                            <span class="fw-normal">0.0000012</span>                          
+                            <span class="fw-normal">◎0.0000012</span>                          
                         </td>
                         <td class="border-bottom-0">
                           <p class="mb-0 fw-normal">FzRVLFA1SKuR38z2R3LED6PBv1CepKJEXVfbw5r6C3gq</p>
