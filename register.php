@@ -15,8 +15,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $query = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$hashed_password')";
 
     if ($conn->query($query) === TRUE) {
-        echo "<script>alert('User registered successfully'); window.location.href='dashboard.php';</script>";
-        exit();
+      $query2 = "SELECT * FROM users WHERE email='$email'";
+      $result = $conn->query($query2);
+  
+      if ($result && $result->num_rows > 0) {
+          $row = $result->fetch_assoc();
+  
+          $_SESSION["user_id"] = $row["id"];
+          $_SESSION["user_email"] = $row["email"];
+          echo "<script>alert('User registered successfully'); window.location.href='user/html/index.php';</script>";
+          exit();
+          
+      } 
+  
     } else {
         echo "Error: " . $query . "<br>" . $conn->error;
     }
@@ -53,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   function redirectToPage(url) {
     window.location.href = url;
   }
-  
+
 </script>
 <style>
   body, h1, h2, h3, p, ul, li {
