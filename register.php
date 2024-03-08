@@ -36,6 +36,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <link rel="shortcut icon" type="image/png" href="user-assets/images/logos/logo.png" />
   <link rel="stylesheet" href="user-assets/css/styles.min.css" />
 </head>
+<script>
+  function redirectToPageAndScroll(url) {
+    window.location.href = url;
+
+    // Extract the section ID from the URL (assumes it's after the '#')
+    var sectionId = url.split('#')[1];
+
+    // Scroll to the section
+    var section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+  function redirectToPage(url) {
+    window.location.href = url;
+  }
+  
+</script>
 <style>
   body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -260,7 +279,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                   <button type="submit" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2" name="signup">Register</button>
                   <div class="d-flex align-items-center justify-content-center">
                       <p class="fs-4 mb-0 fw-bold">Already have an account ?</p>
-                      <a class="text-primary fw-bold ms-2" href="register.php">Login</a>
+                      <a class="text-primary fw-bold ms-2" href="login.php">Login</a>
                   </div>
               </form>
               </div>
