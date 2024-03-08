@@ -218,7 +218,7 @@ nav {
                 <p class="text-center">3Chain</p>
                 <form>
                   <div class="mb-3">
-                    <label for="exampleInputtext1" class="form-label">Name</label>
+                    <label for="exampleInputtext1" class="form-label">Username</label>
                     <input type="text" class="form-control" id="exampleInputtext1" aria-describedby="textHelp">
                   </div>
                   <div class="mb-3">
