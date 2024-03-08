@@ -1,3 +1,37 @@
+<?php
+include 'database/connect.php';
+session_start();
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    $email = isset($_POST["emailaddress"]) ? $_POST["emailaddress"] : "";
+    $password = isset($_POST["password"]) ? $_POST["password"] : "";
+
+    $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+    $password = htmlspecialchars(strip_tags(trim($password)));
+
+    $query = "SELECT * FROM users WHERE email='$email'";
+    $result = $conn->query($query);
+
+    if ($result && $result->num_rows > 0) {
+        $row = $result->fetch_assoc();
+
+        if (password_verify($password, $row["password"])) {
+            $_SESSION["user_id"] = $row["id"];
+            $_SESSION["user_email"] = $row["email"];
+            header("Location: dashboard.php");
+            exit();
+        } else {
+            echo "Incorrect password";
+        }
+    } else {
+        echo "User not found";
+    }
+
+    $conn->close();
+}
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -232,34 +266,34 @@
           <div class="col-md-8 col-lg-6 col-xxl-3">
             <div class="card mb-0">
               <div class="card-body">
-                <a href="./index.html" class="text-nowrap logo-img text-center d-block py-3 w-100">
+                <a href="./index.php" class="text-nowrap logo-img text-center d-block py-3 w-100">
                   <img src="user-assets/images/logos/logo.png" width="50" alt="">
                 </a>
                 <p class="text-center">3Chain</p>
-                <form>
+                <form action="" method="post">
                   <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Username</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <label for="emailaddress" class="form-label">Email Address</label>
+                      <input type="email" class="form-control" id="emailaddress" name="emailaddress" aria-describedby="emailHelp">
                   </div>
                   <div class="mb-4">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                      <label for="password" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="password" name="password">
                   </div>
                   <div class="d-flex align-items-center justify-content-between mb-4">
-                    <div class="form-check">
-                      <input class="form-check-input primary" type="checkbox" value="" id="flexCheckChecked" checked>
-                      <label class="form-check-label text-dark" for="flexCheckChecked">
-                        Remember
-                      </label>
-                    </div>
-                    <a class="text-primary fw-bold" href="./index.html">Forgot Password ?</a>
+                      <div class="form-check">
+                          <input class="form-check-input primary" type="checkbox" value="" id="flexCheckChecked" name="remember" checked>
+                          <label class="form-check-label text-dark" for="flexCheckChecked">
+                              Remember
+                          </label>
+                      </div>
+                      <a class="text-primary fw-bold" href="./index.php">Forgot Password ?</a>
                   </div>
-                  <a href="./index.html" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Login</a>
+                  <button type="submit" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2" name="login">Login</button>
                   <div class="d-flex align-items-center justify-content-center">
-                    <p class="fs-4 mb-0 fw-bold">New to 3Chain?</p>
-                    <a class="text-primary fw-bold ms-2" href="./authentication-register.html">Create an account</a>
+                      <p class="fs-4 mb-0 fw-bold">New to 3Chain?</p>
+                      <a class="text-primary fw-bold ms-2" href="register.php">Create an account</a>
                   </div>
-                </form>
+              </form>
               </div>
             </div>
           </div>
