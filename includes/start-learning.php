@@ -1,4 +1,4 @@
-    <section class="start-learning">
+    <section class="start-learning" id="start-learning">
       <div class="learning-container">
         <div class="learning-container__header">
           <h3 class="learning-container__header__title">Start learning now</h3>

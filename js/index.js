@@ -1,3 +1,19 @@
+// Header nav
+function redirectToPageAndScroll(url) {
+window.location.href = url;
+
+  var sectionId = url.split('#')[1];
+
+  var section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
+function redirectToPage(url) {
+  window.location.href = url;
+}
+
 new Rellax(".btc-illustration", {
     horizontal: true,
   });

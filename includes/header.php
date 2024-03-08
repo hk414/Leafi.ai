@@ -18,11 +18,11 @@
     </div>
     <nav>
       <ul class="list list--inline">
-        <li class="list__item text text--small text--regular" style=""><a href="index.php">Get Started</a></li>
-        <li class="list__item text text--small text--regular">Features</li>
-        <li class="list__item text text--small text--regular">Plans</li>
-        <li class="list__item text text--small text--regular">About</li>
-        <li class="list__item text text--small text--regular">Contact</li>
+        <li class="list__item text text--small text--regular" onclick="redirectToPage('index.php#get-started')">Get Started</li>
+        <li class="list__item text text--small text--regular" onclick="redirectToPageAndScroll('index.php#about-us')">About</li>
+        <li class="list__item text text--small text--regular" onclick="redirectToPageAndScroll('index.php#our-features')">Features</li>
+        <li class="list__item text text--small text--regular" onclick="redirectToPageAndScroll('index.php#pricing-plan-container')">Plans</li>
+        <li class="list__item text text--small text--regular" onclick="redirectToPageAndScroll('index.php#start-learning')">Contact</li>
       </ul>
       <button class="btn2 btn--link text text--small text--medium" onclick="window.location.href='login.php'">Login</button>
       <span class="vertical-line"></span>
