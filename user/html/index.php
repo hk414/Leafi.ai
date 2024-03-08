@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Modernize Free</title>
-  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
+  <title>3Chain</title>
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/logo.png" />
   <link rel="stylesheet" href="../assets/css/styles.min.css" />
 </head>
 
@@ -18,8 +18,8 @@
       <!-- Sidebar scroll-->
       <div>
         <div class="brand-logo d-flex align-items-center justify-content-between">
-          <a href="./index.html" class="text-nowrap logo-img">
-            <img src="../assets/images/logos/dark-logo.svg" width="180" alt="" />
+          <a href="./index.php" class="text-nowrap logo-img">
+            <img src="../assets/images/logos/logo.png" width="50" alt="" />
           </a>
           <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
             <i class="ti ti-x fs-8"></i>
@@ -33,7 +33,7 @@
               <span class="hide-menu">Home</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./index.html" aria-expanded="false">
+              <a class="sidebar-link" href="./index.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-layout-dashboard"></i>
                 </span>
@@ -42,74 +42,71 @@
             </li>
             <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-              <span class="hide-menu">UI COMPONENTS</span>
+              <span class="hide-menu">Challenges</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-buttons.html" aria-expanded="false">
+              <a class="sidebar-link" href="./challenges/c1.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-article"></i>
                 </span>
-                <span class="hide-menu">Buttons</span>
+                <span class="hide-menu">Blockchain</span>
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-alerts.html" aria-expanded="false">
+              <a class="sidebar-link" href="./challenges/c2.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-alert-circle"></i>
                 </span>
-                <span class="hide-menu">Alerts</span>
+                <span class="hide-menu">Distributed Blockchain</span>
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-card.html" aria-expanded="false">
+              <a class="sidebar-link" href="./ui-card.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-cards"></i>
                 </span>
-                <span class="hide-menu">Card</span>
+                <span class="hide-menu">Token</span>
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-forms.html" aria-expanded="false">
+              <a class="sidebar-link" href="./ui-forms.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-file-description"></i>
                 </span>
-                <span class="hide-menu">Forms</span>
+                <span class="hide-menu">Mining</span>
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-typography.html" aria-expanded="false">
+              <a class="sidebar-link" href="./ui-typography.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-typography"></i>
                 </span>
-                <span class="hide-menu">Typography</span>
-              </a>
-            </li>
-            <li class="nav-small-cap">
-              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-              <span class="hide-menu">AUTH</span>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./authentication-login.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-login"></i>
-                </span>
-                <span class="hide-menu">Login</span>
+                <span class="hide-menu">Cryptocurrency</span>
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./authentication-register.html" aria-expanded="false">
+              <a class="sidebar-link" href="./ui-typography.php" aria-expanded="false">
                 <span>
-                  <i class="ti ti-user-plus"></i>
+                  <i class="ti ti-typography"></i>
                 </span>
-                <span class="hide-menu">Register</span>
+                <span class="hide-menu">Cryptowallet</span>
               </a>
             </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="./ui-typography.php" aria-expanded="false">
+                <span>
+                  <i class="ti ti-typography"></i>
+                </span>
+                <span class="hide-menu">Smart Contracts</span>
+              </a>
+            </li>
+            
             <li class="nav-small-cap">
               <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
               <span class="hide-menu">EXTRA</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./icon-tabler.html" aria-expanded="false">
+              <a class="sidebar-link" href="./icon-tabler.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-mood-happy"></i>
                 </span>
@@ -117,7 +114,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./sample-page.html" aria-expanded="false">
+              <a class="sidebar-link" href="./sample-page.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-aperture"></i>
                 </span>
@@ -128,8 +125,8 @@
           <div class="unlimited-access hide-menu bg-light-primary position-relative mb-7 mt-5 rounded">
             <div class="d-flex">
               <div class="unlimited-access-title me-3">
-                <h6 class="fw-semibold fs-4 mb-6 text-dark w-85">Upgrade to pro</h6>
-                <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/" target="_blank" class="btn btn-primary fs-2 fw-semibold lh-sm">Buy Pro</a>
+                <h6 class="fw-semibold fs-4 mb-6 text-dark w-85">Subscribe to plan</h6>
+                <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/" target="_blank" class="btn btn-primary fs-2 fw-semibold lh-sm">Subscribe</a>
               </div>
               <div class="unlimited-access-img">
                 <img src="../assets/images/backgrounds/rocket.png" alt="" class="img-fluid">
@@ -162,7 +159,7 @@
           </ul>
           <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
             <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-              <a href="https://adminmart.com/product/modernize-free-bootstrap-admin-dashboard/" target="_blank" class="btn btn-primary">Download Free</a>
+              <a href="https://adminmart.com/product/modernize-free-bootstrap-admin-dashboard/" target="_blank" class="btn btn-primary">Subscribe to plan</a>
               <li class="nav-item dropdown">
                 <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
                   aria-expanded="false">
@@ -182,7 +179,7 @@
                       <i class="ti ti-list-check fs-6"></i>
                       <p class="mb-0 fs-3">My Task</p>
                     </a>
-                    <a href="./authentication-login.html" class="btn btn-outline-primary mx-3 mt-2 d-block">Logout</a>
+                    <a href="./logout.php" class="btn btn-outline-primary mx-3 mt-2 d-block">Logout</a>
                   </div>
                 </div>
               </li>
@@ -199,14 +196,14 @@
               <div class="card-body">
                 <div class="d-sm-flex d-block align-items-center justify-content-between mb-9">
                   <div class="mb-3 mb-sm-0">
-                    <h5 class="card-title fw-semibold">Sales Overview</h5>
+                    <h5 class="card-title fw-semibold">Total Learning Hours</h5>
                   </div>
                   <div>
                     <select class="form-select">
-                      <option value="1">March 2023</option>
-                      <option value="2">April 2023</option>
-                      <option value="3">May 2023</option>
-                      <option value="4">June 2023</option>
+                      <option value="1">December 2023</option>
+                      <option value="2">January 2024</option>
+                      <option value="3">February 2024</option>
+                      <option value="4">March 2024</option>
                     </select>
                   </div>
                 </div>
@@ -220,26 +217,26 @@
                 <!-- Yearly Breakup -->
                 <div class="card overflow-hidden">
                   <div class="card-body p-4">
-                    <h5 class="card-title mb-9 fw-semibold">Yearly Breakup</h5>
+                    <h5 class="card-title mb-9 fw-semibold">Total Engagement</h5>
                     <div class="row align-items-center">
                       <div class="col-8">
-                        <h4 class="fw-semibold mb-3">$36,358</h4>
+                        <h4 class="fw-semibold mb-3">35%</h4>
                         <div class="d-flex align-items-center mb-3">
                           <span
                             class="me-1 rounded-circle bg-light-success round-20 d-flex align-items-center justify-content-center">
                             <i class="ti ti-arrow-up-left text-success"></i>
                           </span>
-                          <p class="text-dark me-1 fs-3 mb-0">+9%</p>
+                          <p class="text-dark me-1 fs-3 mb-0">+2%</p>
                           <p class="fs-3 mb-0">last year</p>
                         </div>
                         <div class="d-flex align-items-center">
                           <div class="me-4">
-                            <span class="round-8 bg-primary rounded-circle me-2 d-inline-block"></span>
+                            <span class="round-8 bg-light-primary rounded-circle me-2 d-inline-block"></span>
                             <span class="fs-2">2023</span>
                           </div>
                           <div>
-                            <span class="round-8 bg-light-primary rounded-circle me-2 d-inline-block"></span>
-                            <span class="fs-2">2023</span>
+                            <span class="round-8 bg-primary rounded-circle me-2 d-inline-block"></span>
+                            <span class="fs-2">2024</span>
                           </div>
                         </div>
                       </div>
@@ -253,20 +250,20 @@
                 </div>
               </div>
               <div class="col-lg-12">
-                <!-- Monthly Earnings -->
+                <!-- Monthly Engagement -->
                 <div class="card">
                   <div class="card-body">
                     <div class="row alig n-items-start">
                       <div class="col-8">
-                        <h5 class="card-title mb-9 fw-semibold"> Monthly Earnings </h5>
-                        <h4 class="fw-semibold mb-3">$6,820</h4>
+                        <h5 class="card-title mb-9 fw-semibold"> Monthly Engagement </h5>
+                        <h4 class="fw-semibold mb-3">10%</h4>
                         <div class="d-flex align-items-center pb-1">
                           <span
                             class="me-2 rounded-circle bg-light-danger round-20 d-flex align-items-center justify-content-center">
                             <i class="ti ti-arrow-down-right text-danger"></i>
                           </span>
-                          <p class="text-dark me-1 fs-3 mb-0">+9%</p>
-                          <p class="fs-3 mb-0">last year</p>
+                          <p class="text-dark me-1 fs-3 mb-0">+1%</p>
+                          <p class="fs-3 mb-0">last month</p>
                         </div>
                       </div>
                       <div class="col-4">
@@ -285,21 +282,24 @@
             </div>
           </div>
         </div>
+
         <div class="row">
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="card w-100">
               <div class="card-body p-4">
                 <div class="mb-4">
-                  <h5 class="card-title fw-semibold">Recent Transactions</h5>
+                  <h5 class="card-title fw-semibold">Recent Learning</h5>
                 </div>
                 <ul class="timeline-widget mb-0 position-relative mb-n5">
                   <li class="timeline-item d-flex position-relative overflow-hidden">
-                    <div class="timeline-time text-dark flex-shrink-0 text-end">09:30</div>
+                    <div class="timeline-time text-dark flex-shrink-0 text-end">09:30 am</div>
                     <div class="timeline-badge-wrap d-flex flex-column align-items-center">
                       <span class="timeline-badge border-2 border border-primary flex-shrink-0 my-8"></span>
                       <span class="timeline-badge-border d-block flex-shrink-0"></span>
                     </div>
-                    <div class="timeline-desc fs-3 text-dark mt-n1">Payment received from John Doe of $385.90</div>
+                    <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">Blockhain <a
+                        href="javascript:void(0)" class="text-primary d-block fw-normal">15 minutes</a>
+                    </div>
                   </li>
                   <li class="timeline-item d-flex position-relative overflow-hidden">
                     <div class="timeline-time text-dark flex-shrink-0 text-end">10:00 am</div>
@@ -307,8 +307,8 @@
                       <span class="timeline-badge border-2 border border-info flex-shrink-0 my-8"></span>
                       <span class="timeline-badge-border d-block flex-shrink-0"></span>
                     </div>
-                    <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New sale recorded <a
-                        href="javascript:void(0)" class="text-primary d-block fw-normal">#ML-3467</a>
+                    <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">Distributed Blockchain <a
+                        href="javascript:void(0)" class="text-primary d-block fw-normal">2 hours</a>
                     </div>
                   </li>
                   <li class="timeline-item d-flex position-relative overflow-hidden">
@@ -317,33 +317,33 @@
                       <span class="timeline-badge border-2 border border-success flex-shrink-0 my-8"></span>
                       <span class="timeline-badge-border d-block flex-shrink-0"></span>
                     </div>
-                    <div class="timeline-desc fs-3 text-dark mt-n1">Payment was made of $64.95 to Michael</div>
+                    <div class="timeline-desc fs-3 text-dark mt-n1">Logout</div>
                   </li>
                   <li class="timeline-item d-flex position-relative overflow-hidden">
-                    <div class="timeline-time text-dark flex-shrink-0 text-end">09:30 am</div>
+                    <div class="timeline-time text-dark flex-shrink-0 text-end">01:45 pm</div>
                     <div class="timeline-badge-wrap d-flex flex-column align-items-center">
                       <span class="timeline-badge border-2 border border-warning flex-shrink-0 my-8"></span>
                       <span class="timeline-badge-border d-block flex-shrink-0"></span>
                     </div>
-                    <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New sale recorded <a
-                        href="javascript:void(0)" class="text-primary d-block fw-normal">#ML-3467</a>
+                    <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">Distributed Blockchain <a
+                        href="javascript:void(0)" class="text-primary d-block fw-normal">45 minutes</a>
                     </div>
                   </li>
                   <li class="timeline-item d-flex position-relative overflow-hidden">
-                    <div class="timeline-time text-dark flex-shrink-0 text-end">09:30 am</div>
+                    <div class="timeline-time text-dark flex-shrink-0 text-end">02:30 pm</div>
                     <div class="timeline-badge-wrap d-flex flex-column align-items-center">
                       <span class="timeline-badge border-2 border border-danger flex-shrink-0 my-8"></span>
                       <span class="timeline-badge-border d-block flex-shrink-0"></span>
                     </div>
-                    <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">New arrival recorded 
+                    <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">Token 
                     </div>
                   </li>
                   <li class="timeline-item d-flex position-relative overflow-hidden">
-                    <div class="timeline-time text-dark flex-shrink-0 text-end">12:00 am</div>
+                    <div class="timeline-time text-dark flex-shrink-0 text-end">04:00 pm</div>
                     <div class="timeline-badge-wrap d-flex flex-column align-items-center">
                       <span class="timeline-badge border-2 border border-success flex-shrink-0 my-8"></span>
                     </div>
-                    <div class="timeline-desc fs-3 text-dark mt-n1">Payment Done</div>
+                    <div class="timeline-desc fs-3 text-dark mt-n1">...</div>
                   </li>
                 </ul>
               </div>
@@ -361,16 +361,16 @@
                           <h6 class="fw-semibold mb-0">Id</h6>
                         </th>
                         <th class="border-bottom-0">
-                          <h6 class="fw-semibold mb-0">Assigned</h6>
+                          <h6 class="fw-semibold mb-0">Signature</h6>
                         </th>
                         <th class="border-bottom-0">
-                          <h6 class="fw-semibold mb-0">Name</h6>
+                          <h6 class="fw-semibold mb-0">Recent Blockhash</h6>
                         </th>
                         <th class="border-bottom-0">
-                          <h6 class="fw-semibold mb-0">Priority</h6>
+                          <h6 class="fw-semibold mb-0">Result</h6>
                         </th>
                         <th class="border-bottom-0">
-                          <h6 class="fw-semibold mb-0">Budget</h6>
+                          <h6 class="fw-semibold mb-0">Slot</h6>
                         </th>
                       </tr>
                     </thead>
@@ -378,73 +378,73 @@
                       <tr>
                         <td class="border-bottom-0"><h6 class="fw-semibold mb-0">1</h6></td>
                         <td class="border-bottom-0">
-                            <h6 class="fw-semibold mb-1">Sunil Joshi</h6>
-                            <span class="fw-normal">Web Designer</span>                          
+                            <h6 class="fw-semibold mb-1">4gNmn3pbh9jwQYYXiSZmjV3XNxYLQXGYtcVqcp2BtPbs5Y5LVUpquwtXDSMQci1x9KRNfmce3WrqdDYowESQYiU6</h6>
+                            <span class="fw-normal">◎0.00001</span>                          
                         </td>
                         <td class="border-bottom-0">
-                          <p class="mb-0 fw-normal">Elite Admin</p>
+                          <p class="mb-0 fw-normal">DJQNtC93u4AYzf8ujEtJcwGuQpkFDu7NkrELLxiVEeYt</p>
                         </td>
                         <td class="border-bottom-0">
                           <div class="d-flex align-items-center gap-2">
-                            <span class="badge bg-primary rounded-3 fw-semibold">Low</span>
+                            <span class="badge bg-primary rounded-3 fw-semibold">Success</span>
                           </div>
                         </td>
                         <td class="border-bottom-0">
-                          <h6 class="fw-semibold mb-0 fs-4">$3.9</h6>
+                          <h6 class="fw-semibold mb-0 fs-4">232093108</h6>
                         </td>
                       </tr> 
                       <tr>
                         <td class="border-bottom-0"><h6 class="fw-semibold mb-0">2</h6></td>
                         <td class="border-bottom-0">
-                            <h6 class="fw-semibold mb-1">Andrew McDownland</h6>
-                            <span class="fw-normal">Project Manager</span>                          
+                            <h6 class="fw-semibold mb-1">4vMprwHZK62fexPx5qoqs6kMGXbyznnvP1B3i2vdUTyYBsnT1LiK91yjGAuTFfLBUvyzeCdMJNQ3bbe6o7XEzQHw</h6>
+                            <span class="fw-normal">◎0.00001</span>                          
                         </td>
                         <td class="border-bottom-0">
-                          <p class="mb-0 fw-normal">Real Homes WP Theme</p>
+                          <p class="mb-0 fw-normal">23kqCwxjeBX4odXxFmPDtS9C8qwWGthpXr2TvR1rJ1K2</p>
                         </td>
                         <td class="border-bottom-0">
                           <div class="d-flex align-items-center gap-2">
-                            <span class="badge bg-secondary rounded-3 fw-semibold">Medium</span>
+                            <span class="badge bg-secondary rounded-3 fw-semibold">Success</span>
                           </div>
                         </td>
                         <td class="border-bottom-0">
-                          <h6 class="fw-semibold mb-0 fs-4">$24.5k</h6>
+                          <h6 class="fw-semibold mb-0 fs-4">232090280</h6>
                         </td>
                       </tr> 
                       <tr>
                         <td class="border-bottom-0"><h6 class="fw-semibold mb-0">3</h6></td>
                         <td class="border-bottom-0">
-                            <h6 class="fw-semibold mb-1">Christopher Jamil</h6>
-                            <span class="fw-normal">Project Manager</span>                          
+                            <h6 class="fw-semibold mb-1">4X5xWAJiNAPg45fyew6Am6XvsqyNJ75hsWBin9MxvTKAuft2KfSTcyCCUppkmMd2QD7yFpDQ6xfnRTtWbYR6ZuN</h6>
+                            <span class="fw-normal">◎0.0000082</span>                          
                         </td>
                         <td class="border-bottom-0">
-                          <p class="mb-0 fw-normal">MedicalPro WP Theme</p>
+                          <p class="mb-0 fw-normal">JAvgjBxHQxZ2TMo31hKqhJVT2tDKoA3Kassur5GTGHWZ</p>
                         </td>
                         <td class="border-bottom-0">
                           <div class="d-flex align-items-center gap-2">
-                            <span class="badge bg-danger rounded-3 fw-semibold">High</span>
+                            <span class="badge bg-danger rounded-3 fw-semibold">Success</span>
                           </div>
                         </td>
                         <td class="border-bottom-0">
-                          <h6 class="fw-semibold mb-0 fs-4">$12.8k</h6>
+                          <h6 class="fw-semibold mb-0 fs-4">233238684</h6>
                         </td>
                       </tr>      
                       <tr>
                         <td class="border-bottom-0"><h6 class="fw-semibold mb-0">4</h6></td>
                         <td class="border-bottom-0">
-                            <h6 class="fw-semibold mb-1">Nirav Joshi</h6>
-                            <span class="fw-normal">Frontend Engineer</span>                          
+                            <h6 class="fw-semibold mb-1">7nqNEubzKcFtZ68F3NDJmuYnFcNeEAvhHnNpiCuTTueuvwtUUtdFTrtUqbkyWakRpk18N7LfPH55AgYtneS73Zg</h6>
+                            <span class="fw-normal">0.0000012</span>                          
                         </td>
                         <td class="border-bottom-0">
-                          <p class="mb-0 fw-normal">Hosting Press HTML</p>
+                          <p class="mb-0 fw-normal">FzRVLFA1SKuR38z2R3LED6PBv1CepKJEXVfbw5r6C3gq</p>
                         </td>
                         <td class="border-bottom-0">
                           <div class="d-flex align-items-center gap-2">
-                            <span class="badge bg-success rounded-3 fw-semibold">Critical</span>
+                            <span class="badge bg-success rounded-3 fw-semibold">Success</span>
                           </div>
                         </td>
                         <td class="border-bottom-0">
-                          <h6 class="fw-semibold mb-0 fs-4">$2.4k</h6>
+                          <h6 class="fw-semibold mb-0 fs-4">232090556</h6>
                         </td>
                       </tr>                       
                     </tbody>
@@ -454,7 +454,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-sm-6 col-xl-3">
             <div class="card overflow-hidden rounded-2">
               <div class="position-relative">
@@ -535,9 +535,13 @@
               </div>
             </div>
           </div>
+        </div> -->
+        
+        <div class="row">
+          <img src="../../Image_used/user_dashboard/overall_performance.png" class="card-img-top rounded-0" alt="..." style="width: 100%;">
         </div>
         <div class="py-6 px-6 text-center">
-          <p class="mb-0 fs-4">Design and Developed by <a href="https://adminmart.com/" target="_blank" class="pe-1 text-primary text-decoration-underline">AdminMart.com</a></p>
+          <p>&copy;2024 3Chain. All rights reserved.</p>
         </div>
       </div>
     </div>
