@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Modernize Free</title>
-  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
+  <title>3Chain</title>
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/logo.png" />
   <link rel="stylesheet" href="../assets/css/styles.min.css" />
 </head>
 
@@ -18,8 +18,8 @@
       <!-- Sidebar scroll-->
       <div>
         <div class="brand-logo d-flex align-items-center justify-content-between">
-          <a href="./index.html" class="text-nowrap logo-img">
-            <img src="../assets/images/logos/dark-logo.svg" width="180" alt="" />
+          <a href="./index.php" class="text-nowrap logo-img">
+            <img src="../assets/images/logos/logo.png" width="180" alt="" />
           </a>
           <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
             <i class="ti ti-x fs-8"></i>
@@ -33,7 +33,7 @@
               <span class="hide-menu">Home</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./index.html" aria-expanded="false">
+              <a class="sidebar-link" href="./index.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-layout-dashboard"></i>
                 </span>
@@ -45,7 +45,7 @@
               <span class="hide-menu">UI COMPONENTS</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-buttons.html" aria-expanded="false">
+              <a class="sidebar-link" href="./ui-buttons.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-article"></i>
                 </span>
@@ -53,7 +53,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-alerts.html" aria-expanded="false">
+              <a class="sidebar-link" href="./ui-alerts.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-alert-circle"></i>
                 </span>
@@ -61,7 +61,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-card.html" aria-expanded="false">
+              <a class="sidebar-link" href="./ui-card.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-cards"></i>
                 </span>
@@ -69,7 +69,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-forms.html" aria-expanded="false">
+              <a class="sidebar-link" href="./ui-forms.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-file-description"></i>
                 </span>
@@ -77,7 +77,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./ui-typography.html" aria-expanded="false">
+              <a class="sidebar-link" href="./ui-typography.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-typography"></i>
                 </span>
@@ -89,7 +89,7 @@
               <span class="hide-menu">AUTH</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./authentication-login.html" aria-expanded="false">
+              <a class="sidebar-link" href="../../login.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-login"></i>
                 </span>
@@ -97,7 +97,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./authentication-register.html" aria-expanded="false">
+              <a class="sidebar-link" href="../../register.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-user-plus"></i>
                 </span>
@@ -109,7 +109,7 @@
               <span class="hide-menu">EXTRA</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./icon-tabler.html" aria-expanded="false">
+              <a class="sidebar-link" href="./icon-tabler.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-mood-happy"></i>
                 </span>
@@ -117,7 +117,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./sample-page.html" aria-expanded="false">
+              <a class="sidebar-link" href="./sample-page.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-aperture"></i>
                 </span>
@@ -129,7 +129,7 @@
             <div class="d-flex">
               <div class="unlimited-access-title me-3">
                 <h6 class="fw-semibold fs-4 mb-6 text-dark w-85">Upgrade to pro</h6>
-                <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/" target="_blank" class="btn btn-primary fs-2 fw-semibold lh-sm">Buy Pro</a>
+                <a href="" target="_blank" class="btn btn-primary fs-2 fw-semibold lh-sm">Buy Pro</a>
               </div>
               <div class="unlimited-access-img">
                 <img src="../assets/images/backgrounds/rocket.png" alt="" class="img-fluid">
@@ -162,7 +162,7 @@
           </ul>
           <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
             <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-              <a href="https://adminmart.com/product/modernize-free-bootstrap-admin-dashboard/" target="_blank" class="btn btn-primary">Download Free</a>
+              <a href="" target="_blank" class="btn btn-primary">Subscribe to plan</a>
               <li class="nav-item dropdown">
                 <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
                   aria-expanded="false">
@@ -182,7 +182,7 @@
                       <i class="ti ti-list-check fs-6"></i>
                       <p class="mb-0 fs-3">My Task</p>
                     </a>
-                    <a href="./authentication-login.html" class="btn btn-outline-primary mx-3 mt-2 d-block">Logout</a>
+                    <a href="./logout.php" class="btn btn-outline-primary mx-3 mt-2 d-block">Logout</a>
                   </div>
                 </div>
               </li>
@@ -192,39 +192,10 @@
       </header>
       <!--  Header End -->
       <div class="container-fluid">
-        <div class="container-fluid">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title fw-semibold mb-4">Alerts</h5>
-              <div class="card mb-0">
-                <div class="card-body p-4">
-                  <div class="alert alert-primary" role="alert">
-                    A simple primary alert—check it out!
-                  </div>
-                  <div class="alert alert-secondary" role="alert">
-                    A simple secondary alert—check it out!
-                  </div>
-                  <div class="alert alert-success" role="alert">
-                    A simple success alert—check it out!
-                  </div>
-                  <div class="alert alert-danger" role="alert">
-                    A simple danger alert—check it out!
-                  </div>
-                  <div class="alert alert-warning" role="alert">
-                    A simple warning alert—check it out!
-                  </div>
-                  <div class="alert alert-info" role="alert">
-                    A simple info alert—check it out!
-                  </div>
-                  <div class="alert alert-light" role="alert">
-                    A simple light alert—check it out!
-                  </div>
-                  <div class="alert alert-dark" role="alert">
-                    A simple dark alert—check it out!
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold mb-4">Sample Page</h5>
+            <p class="mb-0">This is a sample page </p>
           </div>
         </div>
       </div>
