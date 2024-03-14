@@ -14,7 +14,7 @@
   <div class="header__top">
     <div class="logo">
       <img style="max-height: 40px;"src="Image_used\landing_page\logo.png" alt="3Chain brand logo" />
-      <span class="text text--medium">3Chain</span>
+      <span class="text text--small">3Chain.ai</span>
     </div>
     <nav>
       <ul class="list list--inline">

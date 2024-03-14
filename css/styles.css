@@ -542,6 +542,11 @@ a {
   margin-top: -20rem;
 }
 
+.value-proposition__title_closer {
+  margin-top: -20rem;
+  font-size: 50px;
+}
+
 /* .value-proposition__text {
   margin-bottom: 3.2rem;
 } */

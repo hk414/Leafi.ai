@@ -3,12 +3,12 @@
     <div class="grid grid--1x2 grid--centered grid-gap--small">
       <div class="value-proposition">
         <!-- <div class="badge-container">
-          <span class="badge badge--dark text--small">75% Save</span>
-          <span class="text text--small text--regular text--white">For the Black Friday weekend</span>
+          <span class="badge badge--dark text--small">24/7 Learning</span>
+          <span class="text text--small text--regular text--white">Improve Financial Literacy</span>
         </div> -->
         <!-- <h1 class="value-proposition__title">3Chain</h1> -->
-        <h1 class="value-proposition__title ">
-            3Chain
+        <h1 class="value-proposition__title_closer ">
+            Your Gateaway to Blockchain
             <span class="text-switcher text text--small" data-hold-time="1000" data-switch-content='[ " - Web3 ", " - Blockchain "," - FinTech "]'></span>
         </h1>
         <p class="text text--small text--regular">Explore the Future of Learning. Immerse yourself in a dynamic world of blockchain education. Discover, Learn, and Master Web3 technologies with interactive challenges, AI-guided assistance, and a vibrant community. Join us in shaping the digital landscape of tomorrow.</p>
