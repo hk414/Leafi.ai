@@ -6,8 +6,8 @@ $(function () {
   // =====================================
   var chart = {
     series: [
-      { name: "Earnings this month:", data: [355, 390, 300, 350, 390, 180, 355, 390] },
-      { name: "Expense this month:", data: [280, 250, 325, 215, 250, 310, 280, 250] },
+      { name: "Challenges completed this month:", data: [1, 2, 2, 3, 1, 2, 1, 1] },
+      { name: "Hours this month:", data: [3, 20, 22, 25, 5, 7, 10, 4] },
     ],
 
     chart: {
@@ -21,7 +21,7 @@ $(function () {
     },
 
 
-    colors: ["#5D87FF", "#49BEFF"],
+    colors: ["#F8398A", "#3162DA"],
 
 
     plotOptions: {
@@ -57,9 +57,9 @@ $(function () {
 
     xaxis: {
       type: "category",
-      categories: ["16/08", "17/08", "18/08", "19/08", "20/08", "21/08", "22/08", "23/08"],
+      categories: ["08/23", "09/23", "10/23", "11/23", "12/23", "01/24", "02/24", "03/24"],
       labels: {
-        style: { cssClass: "grey--text lighten-2--text fill-color" },
+        // style: { cssClass: "grey--text lighten-2--text fill-color" },
       },
     },
 
@@ -67,7 +67,7 @@ $(function () {
     yaxis: {
       show: true,
       min: 0,
-      max: 400,
+      max: 30,
       tickAmount: 4,
       labels: {
         style: {
@@ -109,9 +109,9 @@ $(function () {
   // Breakup
   // =====================================
   var breakup = {
-    color: "#adb5bd",
+    color: "#F8398A",
     series: [38, 40, 25],
-    labels: ["2022", "2021", "2020"],
+    labels: ["2024", "2023", "2022"],
     chart: {
       width: 180,
       type: "donut",
@@ -138,7 +138,7 @@ $(function () {
     legend: {
       show: false,
     },
-    colors: ["#5D87FF", "#ecf2ff", "#F9F9FD"],
+    colors: ["#F8398A", "#2b076e", "#f2f2f2"],
 
     responsive: [
       {
@@ -178,7 +178,7 @@ $(function () {
     },
     series: [
       {
-        name: "Earnings",
+        name: "Hours",
         color: "#49BEFF",
         data: [25, 66, 20, 40, 12, 58, 20],
       },
