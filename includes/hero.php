@@ -12,7 +12,7 @@
             <span class="text-switcher text text--small" data-hold-time="1000" data-switch-content='[ " - Web3 ", " - Blockchain "," - FinTech "]'></span>
         </h1>
         <p class="text text--small text--regular">Explore the Future of Learning. Immerse yourself in a dynamic world of blockchain education. Discover, Learn, and Master Web3 technologies with interactive challenges, AI-guided assistance, and a vibrant community. Join us in shaping the digital landscape of tomorrow.</p>
-        <button class="value-proposition__button btn btn--flex btn--accent">
+        <button class="value-proposition__button btn btn--flex btn--accent" onclick="redirectToLoginPage()">
           <span class="text--standart text--medium">Start Learning</span>
           <div class="chiron-icon-container">
             <img src="images/chevron-right.svg" alt="Right Icon" />

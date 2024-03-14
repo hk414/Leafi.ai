@@ -59,7 +59,10 @@
       new Rellax("#gpu-illustration", {
         horizontal: true,
       });
-      
+      function redirectToLoginPage() {
+        window.location.href = 'login.php';
+      }
+
     </script>
   </body>
 </html>
