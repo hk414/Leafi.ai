@@ -1,0 +1,79 @@
+.modal {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    bottom: 0px;
+    right: 0px;
+    width: 30%;
+    height: 20%;
+    overflow: auto;
+    background-color: #0d0d2b;
+    margin-top: 300px;
+    margin-left: 800px;
+  }
+  
+  .modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid white;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #chatButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px; 
+    height: 60px; 
+    background-color: transparent; 
+    border: none;
+    cursor: pointer;
+  }
+  
+  #chatButton img {
+    width: 100%;
+    height: auto;
+  }
+
+  .modal {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    width: 30%;
+    height: 20%;
+    overflow: auto;
+    background-color: #0d0d2b;
+  }
+  
+  /* Position chat button to bottom right */
+  #chatButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+    background-color: transparent; /* Transparent background */
+    border: none;
+    cursor: pointer;
+  }
+  
+  #chatButton img {
+    width: 100%;
+    height: auto;
+  }
+  

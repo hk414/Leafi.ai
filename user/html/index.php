@@ -7,6 +7,7 @@
   <title>3Chain</title>
   <link rel="shortcut icon" type="image/png" href="../assets/images/logos/logo.png" />
   <link rel="stylesheet" href="../assets/css/styles.min.css" />
+  <link rel="stylesheet" href="../assets/css/chatbot.css" />
 </head>
 
 <body>
@@ -454,6 +455,19 @@
             </div>
           </div>
         </div>
+        <button id="chatButton">
+          <img src="../assets/images/logos/chatbot.png" alt="Chat Icon">
+        </button>
+
+        <div id="chatModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="chatContainer">
+      <input type="text" id="userInput" placeholder="Type your message here..."> <!-- Input field for user messages -->
+    </div>
+  </div>
+</div>
+
         <!-- <div class="row">
           <div class="col-sm-6 col-xl-3">
             <div class="card overflow-hidden rounded-2">
@@ -553,6 +567,7 @@
   <script src="../assets/libs/apexcharts/dist/apexcharts.min.js"></script>
   <script src="../assets/libs/simplebar/dist/simplebar.js"></script>
   <script src="../assets/js/dashboard.js"></script>
+  <script src="../assets/js/chatbot.js"></script>
 </body>
 
 </html>
