@@ -57,7 +57,7 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <div class="footer__bottom__copyright text text--small text--regular">&copy;2024 3Chain. All rights reserved.</div>
+        <div class="footer__bottom__copyright text text--small text--regular">&copy;2024 3Chain.ai All rights reserved.</div>
         <div class="footer__bottom__social-media">
           <svg class="social-icon">
             <use xlink:href="images/social-media-sprite.svg#facebook"></use>
