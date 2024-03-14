@@ -12,8 +12,8 @@
 
   <!-- Top Header -->
   <div class="header__top">
-    <div class="logo">
-      <img style="max-height: 40px;"src="Image_used\landing_page\logo.png" alt="3Chain brand logo" />
+      <div class="logo" style="cursor: pointer;" onclick="redirectToIndex()">
+      <img style="max-height: 40px;" src="Image_used\landing_page\logo.png" alt="3Chain brand logo" />
       <span class="text text--small">3Chain.ai</span>
     </div>
     <nav>
@@ -29,3 +29,8 @@
       <button class="btn2 btn--accent text--small text--medium" onclick="window.location.href='register.php'">Register For Free</button>
     </nav>
   </div>
+  <script>
+  function redirectToIndex() {
+    window.location.href = 'index.php';
+  }
+  </script>
