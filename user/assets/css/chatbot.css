@@ -1,11 +1,11 @@
 .modal {
     display: none;
-    position: absolute;
+    position: fixed;
     z-index: 99;
-    bottom: 0px;
-    right: 0px;
-    width: 30%;
-    height: 20%;
+    bottom: 20px;
+    right: 20px;
+    width: 60px; 
+    height: 60px; 
     overflow: auto;
     background-color: #0d0d2b;
     margin-top: 300px;
@@ -22,7 +22,7 @@
   
   .close {
     color: #aaa;
-    float: right;
+    float: left;
     font-size: 28px;
     font-weight: bold;
   }
@@ -58,22 +58,5 @@
     height: 20%;
     overflow: auto;
     background-color: #0d0d2b;
-  }
-  
-  /* Position chat button to bottom right */
-  #chatButton {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 60px; /* Adjust width as needed */
-    height: 60px; /* Adjust height as needed */
-    background-color: transparent; /* Transparent background */
-    border: none;
-    cursor: pointer;
-  }
-  
-  #chatButton img {
-    width: 100%;
-    height: auto;
   }
   

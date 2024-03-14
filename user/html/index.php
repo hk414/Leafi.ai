@@ -8,6 +8,7 @@
   <link rel="shortcut icon" type="image/png" href="../assets/images/logos/logo.png" />
   <link rel="stylesheet" href="../assets/css/styles.min.css" />
   <link rel="stylesheet" href="../assets/css/chatbot.css" />
+  <link rel="stylesheet" href="../assets/css/styles2.css" />
 </head>
 
 <body>
@@ -19,9 +20,12 @@
       <!-- Sidebar scroll-->
       <div>
         <div class="brand-logo d-flex align-items-center justify-content-between">
-          <a href="./index.php" class="text-nowrap logo-img">
-            <img src="../assets/images/logos/logo.png" width="50" alt="" />
-          </a>
+        <a href="./index.php" class="text-nowrap logo-img">
+  <div class="logo-container">
+    <img src="../assets/images/logos/logo.png" width="50" alt="" />
+    <h3>3Chain.ai</h3>
+  </div>
+</a>
           <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
             <i class="ti ti-x fs-8"></i>
           </div>
@@ -460,13 +464,13 @@
         </button>
 
         <div id="chatModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <div id="chatContainer">
-      <input type="text" id="userInput" placeholder="Type your message here..."> <!-- Input field for user messages -->
-    </div>
-  </div>
-</div>
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="chatContainer">
+              <input type="text" id="userInput" placeholder="Type your message here..."> <!-- Input field for user messages -->
+            </div>
+          </div>
+        </div>
 
         <!-- <div class="row">
           <div class="col-sm-6 col-xl-3">
