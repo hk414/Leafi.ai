@@ -152,7 +152,7 @@
 
                 <div class="right-section">
                     <div class="post">
-                        <img src="../assets/images/image_forum/profile-icon.png" alt="">
+                        <img src="../assets/images/profile/user-1.jpg" alt="">
                         <div class="share-post-container">
                             <input class="share-post" type="text" placeholder="Share your thoughts or a post">
                             <img class="img1" src="../assets/images/image_forum/image-search-icon.png" alt="">
@@ -166,7 +166,7 @@
                             <div class="detail">
                                 <p>BlockchainBridge</p>
                                 <div class="status">
-                                    <img src="../assets/images/image_forum/profile-icon.png" alt="">
+                                    <img src="../assets/images/profile/user-1.jpg" alt="">
                                     <p style="color: #3162da;">Ang Fanny &#124;</p>
                                     <p style="margin-left: 2px"> 1 day ago</p>
                                 </div>
@@ -199,7 +199,7 @@
                             <div class="detail">
                                 <p>BlockchainBridge</p>
                                 <div class="status">
-                                    <img src="../assets/images/image_forum/profile-icon.png" alt="">
+                                    <img src="../assets/images/profile/user-1.jpg" alt="">
                                     <p style="color: #3162da;">Ang Fanny &#124;</p>
                                     <p style="margin-left: 2px"> 1 day ago</p>
                                 </div>
@@ -232,7 +232,7 @@
                             <div class="detail">
                                 <p>BlockchainBridge</p>
                                 <div class="status">
-                                    <img src="../assets/images/image_forum/profile-icon.png" alt="">
+                                    <img src="../assets/images/profile/user-1.jpg" alt="">
                                     <p style="color: #3162da;">Ang Fanny &#124;</p>
                                     <p style="margin-left: 2px"> 1 day ago</p>
                                 </div>
