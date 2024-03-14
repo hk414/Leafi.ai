@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../assets/css/styles.min.css" />
   <link rel="stylesheet" href="../assets/css/chatbot.css" />
   <link rel="stylesheet" href="../assets/css/styles2.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
@@ -21,11 +22,11 @@
       <div>
         <div class="brand-logo d-flex align-items-center justify-content-between">
         <a href="./index.php" class="text-nowrap logo-img">
-  <div class="logo-container">
-    <img src="../assets/images/logos/logo.png" width="50" alt="" />
-    <h3>3Chain.ai</h3>
-  </div>
-</a>
+        <div class="logo-container">
+          <img src="../assets/images/logos/logo.png" width="50" alt="" />
+          <h3>3Chain.ai</h3>
+        </div>
+      </a>
           <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
             <i class="ti ti-x fs-8"></i>
           </div>
@@ -459,18 +460,7 @@
             </div>
           </div>
         </div>
-        <button id="chatButton">
-          <img src="../assets/images/logos/chatbot.png" alt="Chat Icon">
-        </button>
 
-        <div id="chatModal" class="modal">
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <div id="chatContainer">
-              <input type="text" id="userInput" placeholder="Type your message here..."> <!-- Input field for user messages -->
-            </div>
-          </div>
-        </div>
 
         <!-- <div class="row">
           <div class="col-sm-6 col-xl-3">
@@ -561,6 +551,31 @@
         <div class="py-6 px-6 text-center">
           <p>&copy;2024 3Chain. All rights reserved.</p>
         </div>
+        <button class="chatbot-toggler">
+          <!-- <span class="material-symbols-rounded">mode_comment</span> -->
+          <img class="chatbot-logo" src="../assets/images/logos/chatbot.png" alt="Chat Icon">
+
+          <span class="material-symbols-outlined">close</span>
+        </button>
+        <div class="chatbot">
+          <header>
+            <h2>3Chain AI Assistant</h2>
+            <span class="close-btn material-symbols-outlined">close</span>
+          </header>
+          <ul class="chatbox">
+            <li class="chat incoming">
+            
+              <span class="material-symbols-outlined"><i class="fas fa-robot"></i></span>
+              <p>Hi Chain.ai learner👋<br>How can I help you today?</p>
+            </li>
+          </ul>
+          <div class="chat-input">
+            <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+            <span id="send-btn" class="material-symbols-rounded">send</span>
+          </div>
+        </div>
+        
+
       </div>
     </div>
   </div>
