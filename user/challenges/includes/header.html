@@ -12,6 +12,12 @@
             <div class="notification bg-primary rounded-circle"></div>
           </a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link nav-icon-hover" href="#" id="forumLink">
+            <i class="fas fa-comments"></i>
+            <div class="notification bg-primary rounded-circle"></div>
+          </a>
+        </li>
       </ul>
       <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
         <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
@@ -43,3 +49,9 @@
       </div>
     </nav>
   </header>
+  <script>
+    document.getElementById("forumLink").addEventListener("click", function(event) {
+      event.preventDefault(); 
+      window.location.href = "../html/forum.php"; 
+    });
+  </script>
