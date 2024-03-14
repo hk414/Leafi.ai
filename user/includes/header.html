@@ -18,6 +18,12 @@
             <div class="notification bg-primary rounded-circle"></div>
           </a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link nav-icon-hover" href="#" id="generateLink">
+            <i class="fas fa-lightbulb"></i>
+            <div class="bg-primary"></div>
+          </a>
+        </li>
       </ul>
       <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
         <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
@@ -53,5 +59,9 @@
     document.getElementById("forumLink").addEventListener("click", function(event) {
       event.preventDefault(); 
       window.location.href = "../html/forum.php"; 
+    });
+    document.getElementById("generateLink").addEventListener("click", function(event) {
+      event.preventDefault(); 
+      window.location.href = "../html/generate.php"; 
     });
   </script>
