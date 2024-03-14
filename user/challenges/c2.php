@@ -28,7 +28,7 @@
       <!--  Header Start -->
       <?php include '../includes/header.html';?>
       <!--  Header End -->
-      <div class="container-hash">
+      <!-- <div class="container-hash">
         <h1>SHA256 Hash</h1>
         <div class="well" id="well1">
           <form class="form-horizontal">
@@ -69,32 +69,8 @@
             &lt;/script&gt;
           </p>
         </div>
-      </div>
+      </div> -->
     </div>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
-  <script>
-    function sha256(data) {
-      return CryptoJS.SHA256(data).toString(CryptoJS.enc.Hex);
-    }
-
-    function updateHash() {
-      const data = document.getElementById('data').value; 
-      const hash = sha256(data); 
-      document.getElementById('hash').value = hash; 
-    }
-
-    document.getElementById('data').addEventListener('input', updateHash);
-
-    document.getElementById('toggleDescription').addEventListener('click', function() {
-      var descriptions = document.querySelectorAll('.description');
-      descriptions.forEach(function(description) {
-        description.style.display = (description.style.display === 'none') ? 'block' : 'none';
-      });
-    });
-
-  </script>
 
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
