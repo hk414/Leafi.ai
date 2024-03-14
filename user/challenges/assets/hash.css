@@ -59,6 +59,14 @@
     line-height: 1.5;
     color: #2b076e;
   }
+
+  .done-icon{
+    color: green;
+  }
+
+  .undone-icon{
+    color: red;
+  }
   
 
   
