@@ -287,6 +287,7 @@
     <script src="../assets/libs/apexcharts/dist/apexcharts.min.js"></script>
     <script src="../assets/libs/simplebar/dist/simplebar.js"></script>
     <script src="../assets/js/dashboard.js"></script>
+    <script src="../assets/js/chatbot.js"></script>
 </body>
 
 </html>
