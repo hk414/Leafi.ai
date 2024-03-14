@@ -25,7 +25,7 @@
         <!--  Main wrapper -->
         <div class="body-wrapper">
             <!-- Header Start -->
-            <?php include '../includes/header.html';?>
+            <?php include 'includes/header.html';?>
             <!-- Header End -->
             <div class="container-cyptowallet">
                 <!-- Video Section -->
