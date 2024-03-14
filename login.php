@@ -69,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 
   .header {
-    background-color: #fff; 
+    background-color: #0d0d2b; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     padding: 10px 20px; 
   }
@@ -126,25 +126,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 
   .btn--link {
-    color: #007bff;
+    color: #2b076e;
   }
 
   .btn--accent {
-    background-color: #007bff; 
+    background-color: #F8398A; 
     color: #fff;
     padding: 10px 15px;
     border-radius: 4px;
   }
 
+  .btn{
+    background-color: #2b076e;
+  }
+
   .vertical-line {
-    border-left: 1px solid #ccc; 
+    border-left: 1px solid #0d0d2b; 
     height: 20px; 
     margin: 0 10px;
   }
 
 
   .text {
-    color: #333;
+    color: #fbfcfe;
   }
 
   .text--small {
@@ -161,7 +165,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   /* Header styles */
   .header {
-    background-color: #fff;
+    background-color: #0d0d2b;
     padding: 15px;
     border-bottom: 1px solid #ddd;
   }
@@ -226,12 +230,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     max-width: 50px;
   }
 
+  .footer{
+    background-color: #0d0d2b;
+    padding: 30px 0;
+  }
+
+  .radial-gradient:before {
+    background: linear-gradient(to bottom, #0d0d2b 0%, #F8398A 100%);
+  }
+
   /* Footer bottom styles */
   .footer__bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    background-color: #0d0d2b;
   }
 
   .footer__bottom__copyright {
