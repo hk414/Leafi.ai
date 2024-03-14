@@ -1,5 +1,5 @@
 <?php
-include 'database/connect.php';
+include 'database/connectt.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = isset($_POST["username"]) ? $_POST["username"] : "";
