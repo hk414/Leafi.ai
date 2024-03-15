@@ -11,11 +11,11 @@
   <link rel="stylesheet" href="../assets/css/styles2.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
-    .done-icon{
+    .done-icon {
       color: green;
     }
 
-    .undone-icon{
+    .undone-icon {
       color: red;
     }
   </style>
@@ -23,27 +23,26 @@
 
 <body>
   <!--  Body Wrapper -->
-  <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
-    data-sidebar-position="fixed" data-header-position="fixed">
+  <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full" data-sidebar-position="fixed" data-header-position="fixed">
 
     <!-- Sidebar Start -->
-    <?php include '../includes/sidebar.html';?>
+    <?php include '../includes/sidebar.html'; ?>
     <!--  Sidebar End -->
 
     <!--  Main wrapper -->
     <div class="body-wrapper">
 
       <!--  Header Start -->
-      <?php include '../includes/header.html';?>
+      <?php include '../includes/header.html'; ?>
       <!--  Header End -->
 
-      <?php include '../includes/dashboard-content.html';?>
+      <?php include '../includes/dashboard-content.html'; ?>
 
       <!-- Footer -->
-      <?php include '../includes/footer.html';?>
+      <?php include '../includes/footer.html'; ?>
 
       <!-- Chatbot -->
-      <?php include '../includes/chatbot.html';?>
+      <?php include '../includes/chatbot.html'; ?>
 
     </div>
   </div>

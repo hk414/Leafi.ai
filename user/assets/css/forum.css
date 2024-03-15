@@ -37,6 +37,12 @@
   margin-bottom: 0px;
 }
 
+.community-content:hover {
+  background-color: rgb(255, 255, 255);
+  transition: ease-out 300ms;
+  cursor: pointer;
+}
+
 .description {
   margin-left: 10px;
   display: flex;
