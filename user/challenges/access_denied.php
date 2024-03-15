@@ -12,6 +12,15 @@
     <link rel="stylesheet" href="assets/access_denied.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
+<style>
+    .done-icon{
+        color: green;
+    }
+
+    .undone-icon{
+        color: red;
+    }
+</style>
 
 <body>
     <!--  Body Wrapper -->
