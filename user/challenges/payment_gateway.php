@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="assets/payment_gateway.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
+<style>
+    .undone-icon{
+        color: red;
+    }
+</style>
 
 <body>
     <!--  Body Wrapper -->
