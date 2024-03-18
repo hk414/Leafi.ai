@@ -1,0 +1,46 @@
+.denied {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 150px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  background-color: #9d1010;
+}
+
+.fa {
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.card p {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.unlock {
+  font-size: 20px;
+  color: #fff;
+  padding: 15px 50px;
+  border: solid #fff 4px;
+  border-radius: 30px;
+  background-color: #ffffff33;
+}
+
+.unlock:hover {
+  background-color: #fff;
+  color: #8d0909;
+  transition: ease-out 300ms;
+  font-weight: 600;
+  letter-spacing: 2px;
+}

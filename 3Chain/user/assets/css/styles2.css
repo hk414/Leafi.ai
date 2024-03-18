@@ -1,0 +1,19 @@
+.logo-img {
+    display: inline-flex;
+    align-items: center; 
+    text-decoration: none; 
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center; 
+  }
+
+  .logo-container h3{
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .logo-container img {
+    margin-right: 10px; 
+  }

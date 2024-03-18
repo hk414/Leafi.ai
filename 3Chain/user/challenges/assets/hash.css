@@ -1,0 +1,72 @@
+.container-hash {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 100px
+  }
+  
+  .well {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .control-label {
+    font-weight: bold;
+  }
+  
+  textarea {
+    width: 100%;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+  }
+  
+  #hash {
+    background-color: #f5f5f5;
+  }
+
+  #toggleDescription{
+    margin: 20px auto;
+  }
+
+  .descriptions-container {
+    display: flex;
+  }
+
+  .description {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffcee2, #fbffd2);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    width: 100px;
+    flex: 1;
+    margin-right: 20px; 
+    overflow: auto; 
+    white-space: pre-wrap;
+    height: 400px;
+  }
+  
+  .description p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2b076e;
+  }
+
+  .done-icon{
+    color: green;
+  }
+
+  .undone-icon{
+    color: red;
+  }
+  
+
+  
